@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The project</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h4>Walcome to the page</h4>
+    <div class="front">
+    <input type="text" placeholder="enter something..">
+    <button>submit</button>
+</div>
+    <ul></ul>
+
+    <script>
+        const but = document.querySelector('button');
+        const int = document.querySelector('input');
+        const ull = document.querySelector('ul');
+
+    but.addEventListener('click', () => {
+        const inputval = int.value;
+        ull.insertAdjacentHTML('beforeend', `<li>${inputval}</li>`);
+    });
+    </script>
+    
+</body>
+</html>

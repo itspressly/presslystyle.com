@@ -1,0 +1,39 @@
+body
+{
+    background-color: rgb(1, 232, 248);
+    padding: 0%;
+}
+
+h4
+{
+    color: rgb(241, 241, 241);
+    text-align: center;
+}
+
+.front
+{
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ul
+{
+    color: rgb(206, 206, 205);
+    text-decoration: dashed;
+    background-color: rgb(95, 95, 95);
+    border-radius: 34px;
+    animation-name: sep;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+}
+
+@keyframes sep {
+    from{transform: translate(300%)}
+   
+}
